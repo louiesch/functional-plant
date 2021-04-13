@@ -10,3 +10,7 @@ const storeState = () => {
 }
 
 export default storeState;
+
+// it starts with an epmpty object
+// it updates state
+// it returns state when commanded to

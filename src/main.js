@@ -1,4 +1,6 @@
 import $ from 'jquery';
+import storeState from "./js/store-state.js";
+import changeState from "./js/change-state.js";
 
 $(document).ready(function() {
 
@@ -16,6 +18,9 @@ $(document).ready(function() {
   // This function has side effects because we are using jQuery. Manipulating the DOM will always be a side effect. Note that we only use one of our functions to alter soil. You can easily add more.
 
   $('#feed').click(function() {
+    console.log(
+      'cats'
+    );
     const newState = stateControl(blueFood);
     $('#soil-value').text(`Soil: ${newState.soil}`);
   });
