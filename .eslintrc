@@ -1,0 +1,19 @@
+{
+  "parserOptions": {
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+  },
+  "extends": "eslint:recommended",
+  "env": {
+    "es6": true,
+    "browser": true,
+    "jquery": true,
+    "node": true,
+    "jest/globals": true
+  },
+  "rules": {
+      "semi": ["warn", 2],
+      "indent": ["warn", 2],
+      "no-debugger": "warn"
+  }
+}
